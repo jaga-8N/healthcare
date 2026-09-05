@@ -50,7 +50,7 @@ Analyze the case and return a VALID JSON response matching this structure:
             contents=prompt,
             config=types.GenerateContentConfig(
                 response_mime_type="application/json",
-                temperature=0.2
+                temperature=0.1
             )
         )
         
