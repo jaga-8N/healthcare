@@ -1,0 +1,37 @@
+{
+  "fever": {
+    "rule_id": "RULE_FEVER_01",
+    "department": "General Medicine",
+    "urgency": "Moderate",
+    "criteria": "High body temperature above 101F or fever lasting more than 3 days.",
+    "escalation_triggers": ["confusion", "stiff neck", "difficulty breathing", "seizure"]
+  },
+  "chest_pain": {
+    "rule_id": "RULE_CARDIO_01",
+    "department": "Emergency / Cardiology",
+    "urgency": "High",
+    "criteria": "Pressure, tightness, or pain in chest radiating to arm, jaw, or back.",
+    "escalation_triggers": ["shortness of breath", "sweating", "dizziness", "fainting"]
+  },
+  "breathing_difficulty": {
+    "rule_id": "RULE_RESP_01",
+    "department": "Emergency / Pulmonology",
+    "urgency": "High",
+    "criteria": "Shortness of breath, wheezing, or inability to speak in full sentences.",
+    "escalation_triggers": ["bluish lips", "chest pain", "stridor", "confusion"]
+  },
+  "injury": {
+    "rule_id": "RULE_TRAUMA_01",
+    "department": "Orthopedics / Trauma Care",
+    "urgency": "Moderate to High",
+    "criteria": "Physical trauma, suspected fractures, deep lacerations, or head injury.",
+    "escalation_triggers": ["loss of consciousness", "uncontrolled bleeding", "numbness"]
+  },
+  "abdominal_pain": {
+    "rule_id": "RULE_GI_01",
+    "department": "Gastroenterology / Acute Care",
+    "urgency": "Moderate",
+    "criteria": "Severe stomach cramping, localized sharp abdominal pain, or persistent vomiting.",
+    "escalation_triggers": ["rigid abdomen", "high fever", "blood in stool", "fainting"]
+  }
+}
