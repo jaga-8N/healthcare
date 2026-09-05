@@ -17,7 +17,7 @@ class TriageEngine:
         rules_text = json.dumps(self.rules, indent=2)
         
         prompt = f"""
-You are a Healthcare Patient Intake Triage Assistant.
+You are a Healthcare Patient Intake Assistant.
 You MUST adhere strictly to these rules:
 1. NEVER diagnose the patient.
 2. Ground all recommendations in the provided triage rules database.
